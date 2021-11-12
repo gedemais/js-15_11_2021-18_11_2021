@@ -1,0 +1,88 @@
+Jour 1
+Un langage pour le Web
+Historique de JavaScript
+Les meilleurs IDE actuels
+Les librairies JavaScript et l'écosystème
+Versions de JavaScript jusqu'à ES2019
+JavaScript et Ajax : relations avec le serveur
+Structuration typique d'une page Web, où placer le JavaScript ?
+Exemples de travaux pratiques (à titre indicatif)
+Création d'une page typique utilisant JavaScript
+Différentes façons d'intégrer JavaScript au projet
+Bases du langage
+Syntaxe de base
+Déclarations et portées des données
+"var" et "let"
+Portée des données
+Types de données, conversions et affectations
+Structures de contrôle
+Boucles
+Tests
+Types de données JSON
+Pièges du typage dynamique
+L'objet "console"
+Exemples de travaux pratiques (à titre indicatif)
+Premier projet simple sur l'utilisation des bases de JavaScript
+Déclarations de variables et utilisation
+Boucles, tests et affichages
+Jour 2
+Un langage à base de fonctions
+La fonction, un élément de base du langage
+Prototypes et fonctions
+Constructeurs et "this"
+Valeur de "this"
+Fonctions et programmation fonctionnelle
+Objet "window" ou le contexte global
+Contextes d'exécution
+Fonctions immédiates et anonymes
+Les fonctions fléchées
+La frontière avec la programmation objet
+Exemples de travaux pratiques (à titre indicatif)
+Création d'un projet exploitant les fonctions de JavaScript
+Mise en exergue de l'aspect fonctionnel du langage
+Création et utilisation de fonctions anonymes
+Jour 3
+Document Object Model (DOM)
+Les objets du navigateur
+Récupérer des éléments
+Ajouter des balises
+Modifier les contenus
+Manipulation des CSS
+Gestion des évènements
+L'objet "event" et son utilisation
+Parcours du DOM
+Modification du DOM, suppression et création d'éléments
+Exemples de travaux pratiques (à titre indicatif)
+Projet de manipulation des objets d'une feuille HTML 5
+Parcours, extraction des contenus et attributs
+Modification, insertion et suppression d'éléments
+Gestion de formulaires avec JavaScript
+Gérer le contenu des formulaires
+Accès aux différents éléments
+Gestion de la validation des données de formulaires
+Ecrire un gestionnaire de formulaires
+Exemples de travaux pratiques (à titre indicatif)
+Extraction des données d'un formulaire et contrôle des valeurs
+Validation des champs de saisie
+Conception d'un gestionnaire de saisie de formulaire
+Gérer les CSS depuis JavaScript
+Rappel succinct de CSS
+Les objets et propriétés importantes
+Accéder en écriture et lecture à CSS
+Exemples de travaux pratiques (à titre indicatif)
+Lecture de styles CSS depuis JavaScript
+Application de nouveaux styles CSS avec JavaScript
+Jour 4
+Ajax
+Architecture des sites Web avec et sans Ajax
+Asynchronisme dans le navigateur
+XMLHttpRequest et HTML 5
+Gestion d'erreurs et timeout
+Exemples de travaux pratiques (à titre indicatif)
+Ecriture d'un projet qui récupère les données d'un serveur
+Les afficher sur une feuille avec Ajax et JSON
+Remplacement de diverses écritures réalisées par des appels à des fonctions jQuery
+Nouveautés ECMAScript 6 à 11
+L'apport majeur de la version 6 (2015) de JavaScript
+Les autres apports
+Avantages liés pour le programmeur
