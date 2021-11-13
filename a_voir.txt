@@ -1,0 +1,10 @@
+Good Practices:
+	camel case
+	let / var (scope)
+	ou appeler <script> dans la page html
+
+Exercices (Installer Node (https://nodejs.org/en/download/)) pour tester en ligne de commande) :
+	Syntaxe
+	types de variables (integers, floating point numbers, string)
+	scope ("var" ou "let")
+	operateurs (+ - * / =)

@@ -1,30 +1,139 @@
 Jour 1
-Un langage pour le Web
-Historique de JavaScript
-Les meilleurs IDE actuels
-Les librairies JavaScript et l'écosystème
-Versions de JavaScript jusqu'à ES2019
-JavaScript et Ajax : relations avec le serveur
-Structuration typique d'une page Web, où placer le JavaScript ?
-Exemples de travaux pratiques (à titre indicatif)
-Création d'une page typique utilisant JavaScript
-Différentes façons d'intégrer JavaScript au projet
-Bases du langage
-Syntaxe de base
-Déclarations et portées des données
-"var" et "let"
-Portée des données
-Types de données, conversions et affectations
-Structures de contrôle
-Boucles
-Tests
-Types de données JSON
-Pièges du typage dynamique
-L'objet "console"
-Exemples de travaux pratiques (à titre indicatif)
-Premier projet simple sur l'utilisation des bases de JavaScript
-Déclarations de variables et utilisation
-Boucles, tests et affichages
+________________________________________________________________________________
+Introduction:
+
+	Un langage pour le Web:
+
+		Js est l'une des trois pierres angulaires du web a l'heure actuelle, avec
+		HTML et CSS. Ce langage comporte de nombreux frameworks et librairies,
+		ce qui le rend tres complet. Adapte a la fois pour des utilisations en
+		back et en front, sa polyvalence le propulse parmis les langages les plus utilises au monde.
+
+
+	Historique de JavaScript:
+
+		La premiere version de javascript a ete creee par Brendan Eich, puis presentee en 1995. Le langage connait depuis
+		des mises a jour regulieres. Jusqu'en juin 2015 (jquery time), la version de javascript actuelle etait appelee ES5
+		(ES pour ECMAScript, un ensemble de normes appliquees a des langages de scripting web, dont js).
+		A partir de Juin 2015, js est passe est a ES6, et a developpe de nouvelles versions tous les ans avec
+		ES7, ES8, etc... La version stable et actuellement utilisee de js est ES12 (sortie en juin 2021).
+
+
+	Les librairies JavaScript et l'écosystème:
+
+		En 2004, le nouveau navigateur Firefox (Fondation Mozilla) fait son
+		apparition, et se presente comme une alternative a Internet Explorer.
+		De nouveaux besoins de compatibilite sont necessaires aux programmeurs,
+		entrainant la creation de standards entre les differents navigateurs web.
+
+		Ici commence l'essor de JavaScript, qui developpe de nombreux frameworks
+		et librairies, permettant aux developpeurs de gerer les bugs et les
+		incompatibilites de maniere transparente. Parmis ces frameworks, on trouve
+		notamment jQuery, une API permettant aux developpeurs web de rediger des
+		scripts cote client (page HTML), sans se soucier des differentes
+		incompatibilites ou bugs entre les differents navigateurs sur lesquels
+		ces scripts s'executeront.
+
+		Mais les frameworks de JavaScript ne s'arreteront pas a regler les
+		problemes de compatibilite pour les developpeurs. Suite a cet essor,
+		de nombreux frameworks js ont fait leur apparition. Parmis les plus utilises :
+
+			- Angular, developpe par Google en 2016, est un framework compatible sur une
+				grande variete de navigateurs, permettant de creer des SPA (Single
+				Page Application). Ce framework est extremement populaire.
+
+			- React, developpe par Facebook, a connu un succes fulgurant a partir de 2014.
+				Ce framework est utilise pour creer des interfaces utilisateur sur les pages
+				web recevant un grand nombre de visites.
+				A l'instar d'Angular, il est open-source et tres populaire.
+
+			- Vue, cree par Evan You en 2014, est un framework front-end,
+				permettant comme Angular de creer des SPA, ainsi que des interface
+				utilisateurs et des web-applications.
+
+			Ces trois frameworks ont l'avantage d'etre open-source, ce qui veut
+			dire que n'importe quel membre de la communaute peut acceder au code
+			et y proposer des changements, et que n'importe quel developpeur peut
+			rejoindre cette communaute, a condition de participer de maniere active
+			et pertinente au projet.
+
+
+	Quelques uns des meilleurs IDE actuels:
+
+		Definition d'IDE (Edition de texte, git-support, tasks planning, teamwork features...)
+		- VS (Dev par Microsoft, l'un des meilleurs IDE pour le web de maniere G)
+		- VSCode (Version gratuite de VS, lightweight mais quelques features en moins)
+		- Atom (Dev par Github, soutenu et utilise par Facebook. git-support excellent, editeur minimaliste mais assez configurable)
+		- Vim (Cree en 1976, version improved sortie en 1991, neo-improved en 2014. Open-Source, ameliorations constantes, communautes actives).
+
+
+	Structuration typique d'une page Web, où placer le JavaScript ?
+
+		Intro HTML5 CSS3 si besoin
+		Un site web est generalement compose d'une ou plusieurs pages HTML, et de fichiers CSS associes a ces pages.
+		La balise <script> appelant du code en JavaScript peut etre positionnee.
+		n'importe ou sur la page, dans les balises <head>, <body>, et <footer>
+		en fonction de quand le script a besoin d'etre execute (si il necessite
+		certains elements sur la page, l'appel au script doit se faire apres leur declaration).
+
+________________________________________________________________________________
+Premiers examples de js:
+
+	Différentes façons d'intégrer JavaScript a un projet:
+		Le JavaScript peut etre utilise dans une page web de trois manieres principales:
+			- Ecrire le code directement dans une balise <script> dans le fichier HTML.
+			- Renseigner un chemin vers un fichier contenant le code source en JavaScript.
+			- Ecrire le code dans un attribut de balise HTML prevu pour lancer un script js a partir d'un evenement.
+		A noter que la premiere methode est generalement assez peu pratique pour maintenir un code HTML lisible.
+
+
+	Création d'une page typique utilisant JavaScript :
+		Introduction a l'exercice_0
+
+________________________________________________________________________________
+Premieres notions de js:
+
+	Bases du langage
+		Le js est un langage dit multi-paradigmes (programmation fonctionnelle, POO, heritage prototypique)
+		Explication des differents paradigmes combines par js.
+
+	Exemple de syntaxe de base
+		Detailler la solution de l'exercice_0
+
+	Déclarations et portées des données
+		example variables
+
+	var et let, portée des données
+		example variables_types
+
+	Types de données, conversions et affectations
+		example conversions
+		example arrays
+
+	Structures de contrôle
+		example conditions
+
+	Boucles
+		example boucles
+
+	Types de données JSON
+		example object
+
+	Pièges du typage dynamique
+		example pieges_typage
+
+	L'objet "console"
+		example console
+
+	Exemples de travaux pratiques (à titre indicatif)
+	Premier projet simple sur l'utilisation des bases de JavaScript
+	Déclarations de variables et utilisation
+	Boucles, tests et affichages
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
 Jour 2
 Un langage à base de fonctions
 La fonction, un élément de base du langage
@@ -41,6 +150,11 @@ Exemples de travaux pratiques (à titre indicatif)
 Création d'un projet exploitant les fonctions de JavaScript
 Mise en exergue de l'aspect fonctionnel du langage
 Création et utilisation de fonctions anonymes
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
 Jour 3
 Document Object Model (DOM)
 Les objets du navigateur
@@ -72,6 +186,11 @@ Accéder en écriture et lecture à CSS
 Exemples de travaux pratiques (à titre indicatif)
 Lecture de styles CSS depuis JavaScript
 Application de nouveaux styles CSS avec JavaScript
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
 Jour 4
 Ajax
 Architecture des sites Web avec et sans Ajax
