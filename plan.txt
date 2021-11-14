@@ -112,7 +112,6 @@ Premieres notions de js:
 
 	Structures de contrôle
 		example conditions
-		operateurs de comparaison
 
 	Boucles
 		example boucles
@@ -167,7 +166,7 @@ Jour 2
 
 	Valeur de "this":
 		Dans une fonction constructeur, "this" designe l'objet cree par la fonction.
-		On peut donc assigner des sous-variables a this, et leur donner les valeurs
+		On peut donc assigner des proprietes (sous-variables) a this, et leur donner les valeurs
 		desirees pour notre objet, en les passant en parametre du constructeur.
 
 		Maintenant que la notion de fonction vous a ete introduite,
@@ -179,9 +178,21 @@ Jour 2
 		example constructor.js
 
 
-	Fonctions et programmation fonctionnelle:
 	Objet "window" ou le contexte global:
+		L'objet window represente la fenetre ouverte dans le navigateur. Cet
+		objet comporte plusieurs proprietes, dont une appelee document. Il s'agit
+		d'une reference vers le document contenu dans window, a savoir notre page
+		web. L'objet document est accessible par defaut en JavaScript, et permet
+		d'influer sur la composition de la page, et sur les donnees que ses briques utilisent.
+		Cet objet document joue donc un role cle lorsque l'on souhaite utiliser
+		javascript pour rendre une page dynamique.
+
 	Contextes d'exécution:
+		Les contextes d'executions sont des informations permettant au navigateur
+		de se reperer dans l'execution du code source de la page. Ils sont stockes
+		sous la forme d'une pile, contenant toujours au moins un element, appele
+		contexte "global".
+
 	Fonctions immédiates et anonymes:
 	Les fonctions fléchées:
 	La frontière avec la programmation objet:
