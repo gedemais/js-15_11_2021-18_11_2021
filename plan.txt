@@ -98,7 +98,7 @@ Premieres notions de js:
 		Explication des differents paradigmes combines par js.
 
 	Exemple de syntaxe de base
-		Detailler la solution de l'exercice_0
+		example linking
 
 	Déclarations et portées des données
 		example variables
@@ -125,7 +125,6 @@ Premieres notions de js:
 	L'objet "console"
 		example console
 
-	Exemples de travaux pratiques (à titre indicatif)
 	Premier projet simple sur l'utilisation des bases de JavaScript
 	Déclarations de variables et utilisation
 	Boucles, tests et affichages
