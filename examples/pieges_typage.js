@@ -8,9 +8,7 @@
 // On cree une fonction prenant un objet de type String en parametre
 function maFonction(chaineDeCaracteres)
 {
-	console.log("Coucou")
 	for (let x = 0; x < chaineDeCaracteres.length; x++) {
-		console.log(chaineDeCaracteres[x]);
 		if (chaineDeCaracteres[x] < 'a' || chaineDeCaracteres[x] > 'z') {
 			console.error('Caractere invalide.');
 		}

@@ -4,8 +4,6 @@
 
 // Le premier et le plus utilise est la condition if, "si"
 
-
-let age = 5;
 /* On declare notre condition avec le mot-cle if, suivi de l'expression a tester.
  * cette expression comporte toujours deux valeurs, separees par un operateur de comparaison.
  * Les operateurs de comparaison sont des symboles permettant de preciser la
@@ -18,6 +16,8 @@ let age = 5;
  * == egal
  * === egalitee renforcee (force les deux valeurs a etre du meme type, ou les considere comme differentes)
  */
+
+let age = 5;
 
 if (age > 18) // si
 {
@@ -43,3 +43,12 @@ else // sinon...
  * les conditions des suivants, et sortira de la struture entiere apres avoir
  * execute le code entre les accolades du premier else if, ce qui permet de prioriser
  * ses conditions, et d'optimiser son code.*/
+
+switch (age)
+{
+	case (age > 18):
+		console.log('Vous pouvez rentrer monsieur, bonne soiree.'); // code execute si la condition est vraie
+	break;
+	default:
+		console.log('Patientez sur le cote svp.'); // code execute si la condition est vraie
+}

@@ -3,7 +3,7 @@ const size = numbers.length
 
 /* Imaginons que l'on veuille augmenter la valeur de chaque element du tableau
  * numbers. Nous pourrions ajouter 1 a chacune des valeurs manuellement.
- * Cependant, les boucles nous permettent de nous rendre la tache moins fastidieuse.
+ * Cependant, les boucles nous permettent de nous rendre la tache moins fastidieuse.*/
 
 /* Il existe beaucoup de facons d'iterer sur un tableau (c'est a dire de
  * consulter sequentiellement ses elements, un par un). Nous ne verrons

@@ -13,11 +13,14 @@ console.log(array[0]);
 // Et pour afficher le dernier element :
 console.log(array[array.length - 1]);
 console.log('--------------------------------------------');
-/* .length est une methode qui renvoie la longueur du tableau. On soustrait 1 a
+/* .length est une propriete contenant la longueur du tableau. On soustrait 1 a
  * cette valeur car l'indexage du tableau commence a 0.*/
 
 // On peut egalement affecter des valeurs a partir d'un tableau par decomposition :
 
+array = [1, 2];
+
+array = [array[1], array[0]];
 
 let a;
 let b;
@@ -41,3 +44,9 @@ array.unshift(42); console.log(array);
 
 // La methode unshift, qui permet de supprimer un element au debut du tableau.
 array.shift(); console.log(array);
+
+// Inserer
+array.insert(1, 'bonjour');
+
+// Delete
+delete(array[1]);

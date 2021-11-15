@@ -8,13 +8,13 @@
  */
 
 /* Cette fonction retourne la longueur d'une chaine de
- * caracteres, tout comme la methode length de l'objet String.
+ * caracteres, tout comme la propriete length de l'objet String.
  * Une chaine de caracteres, comme son nom l'indique, est compose de caracteres
  * individuels. Pour delimiter la fin de la chaine, le dernier caractere est
  * toujours mis a la valeur undefined (il ne s'affiche pas). On peut donc iterer
  * sur la chaine de caracteres sans depasser la fin, et incrementer un compteur
  * a chaque iteration pour connaitre le nombre de caracteres total de la chaine.
- * On renvoyer cette valeur.
+ * On renvoie cette valeur.
  */
 
 // On declare la fonction, en lui passant la chaine de caracteres en parametres.

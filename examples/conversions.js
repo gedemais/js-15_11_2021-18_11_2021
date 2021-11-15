@@ -22,7 +22,7 @@ console.log(nombreEntier.toString());
 /* Integer -> Floating point number; toFixed passe un nombre entier en decimal, sous la forme d'une chaine
  * de caracteres. Son seul parametre est la precision (nombre de chiffres apres la virgule). Apres une conversion
  * de String a Float (vue plus haut), on obtient le float en question. */
-console.log(parseFloat(nombreAVirgule.toFixed(2)));
+console.log(parseFloat(nombreEntier.toFixed(2)));
 
 console.log('--------------------------------');
 
@@ -31,8 +31,8 @@ console.log('--------------------------------');
 // Floating point number -> String; float.toString().
 console.log(nombreAVirgule.toString());
 
-// Floating point number -> Integer; Math.trunc(float)
-console.log(Math.trunc(nombreEntier));
+// Floating point number -> Integer; Math.round(float)
+console.log(Math.round(nombreAVirgule));
 
 console.log('--------------------------------');
 

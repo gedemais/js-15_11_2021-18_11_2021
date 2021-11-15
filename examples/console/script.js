@@ -27,4 +27,4 @@ console.error("This is an error");
  * son premier parametre est une condition fausse. Tres utile pour construire
  * et debugger un script.*/
 
-console.assert(false, "pas content.");
+console.assert(retour == 400, "pas content.");

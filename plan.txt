@@ -130,11 +130,6 @@ Premieres notions de js:
 	Boucles, tests et affichages
 		calculatrice
 
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-
-Jour 2
 
 	Un langage à base de fonctions:
 		Le JavaScript, comme beaucoup de langages, permet de declarer des fonctions.
@@ -166,7 +161,7 @@ Jour 2
 
 	Valeur de "this":
 		Dans une fonction constructeur, "this" designe l'objet cree par la fonction.
-		On peut donc assigner des proprietes (sous-variables) a this, et leur donner les valeurs
+		On peut donc assigner des attributs (sous-variables) a this, et leur donner les valeurs
 		desirees pour notre objet, en les passant en parametre du constructeur.
 
 		Maintenant que la notion de fonction vous a ete introduite,
@@ -177,10 +172,21 @@ Jour 2
 
 		example constructor.js
 
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+Jour 2
+
+	Objets et prototypes:
+		example_prototypes
+		exo prototypes
+
+	Petit projet avec manipulations des constructeurs et des objets
 
 	Objet "window" ou le contexte global:
 		L'objet window represente la fenetre ouverte dans le navigateur. Cet
-		objet comporte plusieurs proprietes, dont une appelee document. Il s'agit
+		objet comporte plusieurs attributs, dont une appelee document. Il s'agit
 		d'une reference vers le document contenu dans window, a savoir notre page
 		web. L'objet document est accessible par defaut en JavaScript, et permet
 		d'influer sur la composition de la page, et sur les donnees que ses briques utilisent.
@@ -204,6 +210,12 @@ Jour 2
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
+
+Les outils du navigateur
+
+Regexps
+
+Tests unitaires JavaScript
 
 Jour 3
 Document Object Model (DOM)
@@ -251,6 +263,10 @@ Exemples de travaux pratiques (à titre indicatif)
 Ecriture d'un projet qui récupère les données d'un serveur
 Les afficher sur une feuille avec Ajax et JSON
 Remplacement de diverses écritures réalisées par des appels à des fonctions jQuery
+
+jQuery ++
+
+
 Nouveautés ECMAScript 6 à 11
 L'apport majeur de la version 6 (2015) de JavaScript
 Les autres apports
