@@ -178,46 +178,51 @@ Premieres notions de js:
 
 Jour 2
 
-	Objets et prototypes:
-		example_prototypes
-		exo prototypes
+	operateur de comparaison !==
 
-	Petit projet avec manipulations des constructeurs et des objets
-
-	Objet "window" ou le contexte global:
-		L'objet window represente la fenetre ouverte dans le navigateur. Cet
-		objet comporte plusieurs attributs, dont une appelee document. Il s'agit
-		d'une reference vers le document contenu dans window, a savoir notre page
-		web. L'objet document est accessible par defaut en JavaScript, et permet
-		d'influer sur la composition de la page, et sur les donnees que ses briques utilisent.
-		Cet objet document joue donc un role cle lorsque l'on souhaite utiliser
-		javascript pour rendre une page dynamique.
-
-	Contextes d'exécution:
-		Les contextes d'executions sont des informations permettant au navigateur
-		de se reperer dans l'execution du code source de la page. Ils sont stockes
-		sous la forme d'une pile, contenant toujours au moins un element, appele
-		contexte "global".
+	exercices objets (cylinder & clock)
 
 	Fonctions immédiates et anonymes:
+		Comme vous l'avez probablement remarque, il n'est pas obligatoire de nommer
+		une fonction quand on la declare en js. Les fonctions sans nom sont appelees
+		fonctions anonymes, et sont la plupart du temps renseignees sous forme
+		d'expressions, et non declarees comme des fonctions classiques.
+
 	Les fonctions fléchées:
-	La frontière avec la programmation objet:
-	Exemples de travaux pratiques (à titre indicatif):
-	Création d'un projet exploitant les fonctions de JavaScript:
-	Mise en exergue de l'aspect fonctionnel du langage:
-	Création et utilisation de fonctions anonymes:
+		example arrow_function
 
+	Exercice rec.
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
-Les outils du navigateur
+Les outils du navigateur:
+https://developer.mozilla.org/fr/docs/Learn/Common_questions/What_are_browser_developer_tools
 
-Regexps
+
+Regexps:
+cheatsheet : https://ufrsciencestech.u-bourgogne.fr/master1/Multimedia/TD/TD5_Expr_reg_JS.pdf
+exercices : https://www.w3resource.com/javascript-exercises/javascript-regexp-exercises.php
 
 Tests unitaires JavaScript
 
 Jour 3
+
+Objet "window" ou le contexte global:
+	L'objet window represente la fenetre ouverte dans le navigateur. Cet
+	objet comporte plusieurs attributs, dont une appelee document. Il s'agit
+	d'une reference vers le document contenu dans window, a savoir notre page
+	web. L'objet document est accessible par defaut en JavaScript, et permet
+	d'influer sur la composition de la page, et sur les donnees que ses briques utilisent.
+	Cet objet document joue donc un role cle lorsque l'on souhaite utiliser
+	javascript pour rendre une page dynamique.
+
+Contextes d'exécution:
+	Les contextes d'executions sont des informations permettant au navigateur
+	de se reperer dans l'execution du code source de la page. Ils sont stockes
+	sous la forme d'une pile, contenant toujours au moins un element, appele
+	contexte "global".
+
 Document Object Model (DOM)
 Les objets du navigateur
 Récupérer des éléments
