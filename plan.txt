@@ -235,9 +235,17 @@ Modifier les contenus																		\
 																							|
 Modification du DOM, suppression et création d'éléments										|
 																							/
+https://www.pierre-giraud.com/javascript-apprendre-coder-cours/dom-ajout-modification-suppression/
+
 Manipulation des CSS
+https://www.w3schools.com/js/js_htmldom_css.asp
+
 Gestion des évènements
-L'objet "event" et son utilisation
+https://developer.mozilla.org/fr/docs/Web/Events
+https://sweetohm.net/blog/196.html
+
+exercice anti-epileptiques
+
 Parcours du DOM
 Exemples de travaux pratiques (à titre indicatif)
 Projet de manipulation des objets d'une feuille HTML 5
