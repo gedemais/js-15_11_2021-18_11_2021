@@ -172,6 +172,15 @@ Premieres notions de js:
 
 		example constructor.js
 
+		Objet "window" ou le contexte global:
+			L'objet window represente la fenetre ouverte dans le navigateur. Cet
+			objet comporte plusieurs attributs, dont une appelee document. Il s'agit
+			d'une reference vers le document contenu dans window, a savoir notre page
+			web. L'objet document est accessible par defaut en JavaScript, et permet
+			d'influer sur la composition de la page, et sur les donnees que ses briques utilisent.
+			Cet objet document joue donc un role cle lorsque l'on souhaite utiliser
+			javascript pour rendre une page dynamique.
+
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -194,31 +203,6 @@ Jour 2
 	Exercice rec.
 
 
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-
-Les outils du navigateur:
-https://developer.mozilla.org/fr/docs/Learn/Common_questions/What_are_browser_developer_tools
-
-
-Regexps:
-cheatsheet : https://ufrsciencestech.u-bourgogne.fr/master1/Multimedia/TD/TD5_Expr_reg_JS.pdf
-exercices : https://www.w3resource.com/javascript-exercises/javascript-regexp-exercises.php
-
-Tests unitaires JavaScript
-
-Jour 3
-
-Objet "window" ou le contexte global:
-	L'objet window represente la fenetre ouverte dans le navigateur. Cet
-	objet comporte plusieurs attributs, dont une appelee document. Il s'agit
-	d'une reference vers le document contenu dans window, a savoir notre page
-	web. L'objet document est accessible par defaut en JavaScript, et permet
-	d'influer sur la composition de la page, et sur les donnees que ses briques utilisent.
-	Cet objet document joue donc un role cle lorsque l'on souhaite utiliser
-	javascript pour rendre une page dynamique.
-
 Contextes d'exécution:
 	Les contextes d'executions sont des informations permettant au navigateur
 	de se reperer dans l'execution du code source de la page. Ils sont stockes
@@ -227,14 +211,35 @@ Contextes d'exécution:
 
 Document Object Model (DOM)
 Les objets du navigateur
+	http://www.w3bai.com/fr/js/js_ex_browser.html
+	window : Permet entre autres de faire apparaitre une nouvelle fenetre, de la redimensionner, la deplacer, et la fermer.
+	screen : Informations sur l'ecran du visiteur (hauteur, largeur, hauteur/largeur disponibles pour la fenetre, profondeur de couleur, de pixel)
+	location : Informations sur la page consultee actuellement, et son URL. Permet egalement de charger une autre adresse.
+	history : Permet de consulter et d'ouvrir des liens dans l'historique. Permet aussi la creation de boutons "precedent" et "suivant" sur une page.
+	navigator : Meta-informations about de navigator (Nom, Version, Moteur, Cookies, Plateforme, Langue, Java active ou non)
+	popup : Well...
+	timing : Gestion de l'ecoulement du temps dans le navigateur.
+
 Récupérer des éléments
-Ajouter des balises
-Modifier les contenus
+	L'objet document comporte de nombreux attributs, permettant de recuperer la
+	totalite des elements sur une page HTML via JavaScript.
+	https://javascript.developpez.com/actu/84990/Les-methodes-de-recuperation-des-elements-du-DOM/
+	
+Modifier les contenus																		\
+	On peut modifier les attributs et valeurs des balises HTML en passant par le DOM.		|
+	Il suffit de selectionner l'element que l'on souhaite modifier (jQuery/getElementbyId),	|==> https://www.w3schools.com/js/js_htmldom_html.asp 
+	puis d'ecraser la valeur de son attribut innerHTML, ce qui aura pour effet de modifier	|
+	le contenu de la balise selectionee. On peut egalement modifier les attributs de cette	|
+	balise, en y accedant directement via l'objet element selectionne.						|
+																							|
+	exercice horloge																		|
+																							|
+Modification du DOM, suppression et création d'éléments										|
+																							/
 Manipulation des CSS
 Gestion des évènements
 L'objet "event" et son utilisation
 Parcours du DOM
-Modification du DOM, suppression et création d'éléments
 Exemples de travaux pratiques (à titre indicatif)
 Projet de manipulation des objets d'une feuille HTML 5
 Parcours, extraction des contenus et attributs
@@ -278,3 +283,14 @@ Nouveautés ECMAScript 6 à 11
 L'apport majeur de la version 6 (2015) de JavaScript
 Les autres apports
 Avantages liés pour le programmeur
+
+--------------------------------------------------------------------------------
+Les outils du navigateur:
+https://developer.mozilla.org/fr/docs/Learn/Common_questions/What_are_browser_developer_tools
+
+Regexps:
+cheatsheet : https://ufrsciencestech.u-bourgogne.fr/master1/Multimedia/TD/TD5_Expr_reg_JS.pdf
+exercices : https://www.w3resource.com/javascript-exercises/javascript-regexp-exercises.php
+
+Tests unitaires JavaScript
+

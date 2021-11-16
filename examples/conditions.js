@@ -13,6 +13,7 @@
  * >= : superieur ou egal
  * <= : inferieur ou egal
  * != : different
+ * !== : different
  * == egal
  * === egalitee renforcee (force les deux valeurs a etre du meme type, ou les considere comme differentes)
  */
