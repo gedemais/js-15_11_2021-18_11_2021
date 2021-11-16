@@ -202,7 +202,6 @@ Jour 2
 
 	Exercice rec.
 
-
 Contextes d'exécution:
 	Les contextes d'executions sont des informations permettant au navigateur
 	de se reperer dans l'execution du code source de la page. Ils sont stockes
@@ -264,6 +263,8 @@ Application de nouveaux styles CSS avec JavaScript
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
+
+Git++
 
 Jour 4
 Ajax
