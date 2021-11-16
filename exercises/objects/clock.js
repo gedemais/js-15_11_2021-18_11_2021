@@ -6,7 +6,7 @@ async function timer()
 	while (1)
 	{
 		clock.tick();
-		console.log(this.hours, 'h', this.minutes, 'm', this.seconds, 's');
+		console.log(clock.hours, 'h', clock.minutes, 'm', clock.seconds, 's');
 		await new Promise(r => setTimeout(r, 100));
 		console.clear();
 	}
