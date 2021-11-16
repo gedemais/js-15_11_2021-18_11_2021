@@ -8,4 +8,11 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
-
+document.addEventListener('keydown', function (event){
+	if (event.code === 'Space')
+	{
+		let r, g, b;
+		[r, g, b] = [getRandomInt(255), getRandomInt(255), getRandomInt(255)];
+		document.body.style = `background-color: rgb(${r}, ${g}, ${b})`;
+	}
+});

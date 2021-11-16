@@ -249,8 +249,12 @@ exercice anti-epileptiques
 Parcours du DOM
 Exemples de travaux pratiques (à titre indicatif)
 Projet de manipulation des objets d'une feuille HTML 5
-Parcours, extraction des contenus et attributs
+
 Modification, insertion et suppression d'éléments
+https://www.pierre-giraud.com/javascript-apprendre-coder-cours/dom-ajout-modification-suppression/
+
+exercice add_remove_html
+
 Gestion de formulaires avec JavaScript
 Gérer le contenu des formulaires
 Accès aux différents éléments
@@ -315,4 +319,3 @@ cheatsheet : https://ufrsciencestech.u-bourgogne.fr/master1/Multimedia/TD/TD5_Ex
 exercices : https://www.w3resource.com/javascript-exercises/javascript-regexp-exercises.php
 
 Tests unitaires JavaScript
-
