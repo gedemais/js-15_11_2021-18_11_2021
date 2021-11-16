@@ -1,5 +1,6 @@
 
-clock  = new Clock(0, 0, 0);
+
+clock = new Clock(0, 0, 0);
 
 setInterval(async function tick()
 {

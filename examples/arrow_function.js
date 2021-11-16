@@ -9,6 +9,6 @@ function square(n)
 }
 
 // La meme fonction, version flechee :
-square2 = n => n * n;
+square2 = (n => n * n);
 
 console.log(square(4), square2(4));

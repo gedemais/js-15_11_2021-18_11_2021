@@ -211,11 +211,11 @@ Contextes d'exécution:
 Document Object Model (DOM)
 Les objets du navigateur
 	http://www.w3bai.com/fr/js/js_ex_browser.html
-	window : Permet entre autres de faire apparaitre une nouvelle fenetre, de la redimensionner, la deplacer, et la fermer.
+	window : Permet entre autres de faire apparaitre une nouvelle fenetre, de la redimensionner, la deplacer, et la fermer. Contient l'objet document.
 	screen : Informations sur l'ecran du visiteur (hauteur, largeur, hauteur/largeur disponibles pour la fenetre, profondeur de couleur, de pixel)
 	location : Informations sur la page consultee actuellement, et son URL. Permet egalement de charger une autre adresse.
 	history : Permet de consulter et d'ouvrir des liens dans l'historique. Permet aussi la creation de boutons "precedent" et "suivant" sur une page.
-	navigator : Meta-informations about de navigator (Nom, Version, Moteur, Cookies, Plateforme, Langue, Java active ou non)
+	navigator : Meta-informations about de navigator (Nom, Version, Moteur, Cookies, Plateforme, Langue, JavaScript active ou non)
 	popup : Well...
 	timing : Gestion de l'ecoulement du temps dans le navigateur.
 
@@ -223,7 +223,7 @@ Récupérer des éléments
 	L'objet document comporte de nombreux attributs, permettant de recuperer la
 	totalite des elements sur une page HTML via JavaScript.
 	https://javascript.developpez.com/actu/84990/Les-methodes-de-recuperation-des-elements-du-DOM/
-	
+
 Modifier les contenus																		\
 	On peut modifier les attributs et valeurs des balises HTML en passant par le DOM.		|
 	Il suffit de selectionner l'element que l'on souhaite modifier (jQuery/getElementbyId),	|==> https://www.w3schools.com/js/js_htmldom_html.asp 
@@ -264,7 +264,20 @@ Application de nouveaux styles CSS avec JavaScript
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
-Git++
+Git
+Git c'est quoi ?
+Github / Gitlab (Utilisations, contextes).
+Creer un repo git
+Cloner un repo git
+(Modifications / Creations)
+add (prendre des elements en compte).
+status (voir les elements pris en compte).
+commit (prendre une photo de l'etat actuel du projet (ne fonctionne qu'apres avoir add)).
+push (remplacer le commit actuel du serveur par notre nouveau commit en local).
+log (consulter des commits).
+checkout (se deplacer sur un commit / une branche).
+reset (reinitialiser).
+
 
 Jour 4
 Ajax
