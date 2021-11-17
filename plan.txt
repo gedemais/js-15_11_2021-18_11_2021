@@ -255,41 +255,34 @@ https://www.pierre-giraud.com/javascript-apprendre-coder-cours/dom-ajout-modific
 
 exercice add_remove_html
 
-Gestion de formulaires avec JavaScript
-Gérer le contenu des formulaires
-Accès aux différents éléments
-Gestion de la validation des données de formulaires
-Ecrire un gestionnaire de formulaires
-Exemples de travaux pratiques (à titre indicatif)
-Extraction des données d'un formulaire et contrôle des valeurs
-Validation des champs de saisie
-Conception d'un gestionnaire de saisie de formulaire
-Gérer les CSS depuis JavaScript
-Rappel succinct de CSS
-Les objets et propriétés importantes
-Accéder en écriture et lecture à CSS
-Exemples de travaux pratiques (à titre indicatif)
-Lecture de styles CSS depuis JavaScript
-Application de nouveaux styles CSS avec JavaScript
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+Jour 3
+
+Gestion de la validation des données de formulaires avec des Regular Expressions.
+
+exercice new_user
+
+Optimisation et simplification du code avec l'heritage prototypique.
+https://developer.mozilla.org/fr/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
+
+exercice prototypes.
+
+Optimisations du code :
+https://www.w3schools.com/js/js_performance.asp
+
+Jquery
+https://www.w3schools.com/jquERy/jquery_intro.asp
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
-Git
-Git c'est quoi ?
-Github / Gitlab (Utilisations, contextes).
-Creer un repo git
-Cloner un repo git
-(Modifications / Creations)
-add (prendre des elements en compte).
-status (voir les elements pris en compte).
-commit (prendre une photo de l'etat actuel du projet (ne fonctionne qu'apres avoir add)).
-push (remplacer le commit actuel du serveur par notre nouveau commit en local).
-log (consulter des commits).
-checkout (se deplacer sur un commit / une branche).
-reset (reinitialiser).
 
+Les outils du navigateur:
+https://developer.mozilla.org/fr/docs/Learn/Common_questions/What_are_browser_developer_tools
 
 Jour 4
 Ajax
@@ -302,7 +295,6 @@ Ecriture d'un projet qui récupère les données d'un serveur
 Les afficher sur une feuille avec Ajax et JSON
 Remplacement de diverses écritures réalisées par des appels à des fonctions jQuery
 
-jQuery ++
 
 
 Nouveautés ECMAScript 6 à 11
@@ -311,11 +303,5 @@ Les autres apports
 Avantages liés pour le programmeur
 
 --------------------------------------------------------------------------------
-Les outils du navigateur:
-https://developer.mozilla.org/fr/docs/Learn/Common_questions/What_are_browser_developer_tools
 
-Regexps:
-cheatsheet : https://ufrsciencestech.u-bourgogne.fr/master1/Multimedia/TD/TD5_Expr_reg_JS.pdf
-exercices : https://www.w3resource.com/javascript-exercises/javascript-regexp-exercises.php
 
-Tests unitaires JavaScript
