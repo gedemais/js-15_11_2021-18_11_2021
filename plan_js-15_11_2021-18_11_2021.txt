@@ -1,0 +1,40 @@
+Awaiting connection
+
+Laisser les gens se presenter, resumer leur parcours, et enoncer les raisons de
+leur interet pour la formation.
+
+Se presenter soi-meme, cursus, freelance depuis 2 ans, formateur a ses heures perdues.
+
+Demander aux gens de developper un peu sur leur niveau en informatique :
+
+Expliquer le plan de la formation. Le but est que chacun apprenne a son
+rythme, et obtienne une pratique qui saura le/la rendre autonome pour completer
+ses connaissances en JavaScript.
+
+--------------------------------------------------------------------------------
+
+Introduction :
+
+Historique des versions : https://www.freecodecamp.org/news/es5-to-esnext-heres-every-feature-added-to-javascript-since-2015-d0c255e13c6e/
+
+Frameworks :
+angular : https://angular.io/
+react : https://fr.reactjs.org/
+vue : https://vuejs.org/
+
+IDE:
+VS : https://visualstudio.microsoft.com/fr/
+VSCode : https://code.visualstudio.com/
+Atom : https://atom.io/
+Vim : https://www.vim.org/
+
+
+NodeJS : https://nodejs.org/fr/
+
+gcl : f1 + rechercher gitcl + renseigner https://github.com/gedemais/js-15_11_2021-18_11_2021
+
+exercice_0
+
+Premieres notions
+
+solution_calculatrice

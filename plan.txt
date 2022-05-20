@@ -262,6 +262,8 @@ exercice add_remove_html
 Jour 3
 
 Gestion de la validation des données de formulaires avec des Regular Expressions.
+https://cs.lmu.edu/~ray/notes/regex/
+https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/RegExp
 
 exercice new_user
 

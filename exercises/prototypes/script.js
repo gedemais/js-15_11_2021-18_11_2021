@@ -36,8 +36,8 @@
 Terre = function(temperatureMoyenne = 13.7, luminosite = 1.0) {
 	this.diametre = 12742;
 	this.gravitation = 9.81;
-	this.temperatureMoyenne = 13.7;
 	this.pressionAtmospherique = 1.01325;
+	this.temperatureMoyenne = 13.7;
 	this.luminosite = 1.0;
 
 	this.orage = function (){
@@ -53,3 +53,12 @@ Terre = function(temperatureMoyenne = 13.7, luminosite = 1.0) {
 		this.temperatureMoyenne += 0.1;
 	}
 }
+
+univers = [];
+
+for (let i = 0; i < 10000; i++)
+{
+	univers.unshift(Terre());
+}
+
+
